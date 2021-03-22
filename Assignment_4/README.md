@@ -15,12 +15,12 @@ These scripts can then be used to provide easy-to-understand benchmark scores fo
  git clone 
  ```
 **step 2: Set up enviroment:**
-- Navigate to the folder "Assignment_W6".
+- Navigate to the folder "Assignment_4".
 ```console
 cd cds_visual_assignments
 cd Assignment_4
 ```  
-- Use the bash script _create_venv.sh_ to set up environment:  
+- Use the bash script _create_assignment4_venv.sh_ to set up environment:  
 ```console
 bash create_assignment4_venv.sh
 ```  
@@ -32,4 +32,5 @@ bash run_lr_nn_scripts.sh
 ```  
 **step 4: Output:**
 - The two classifiers are printet on the screen
+- NB: This might take some time
 
