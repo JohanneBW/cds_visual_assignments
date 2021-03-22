@@ -31,5 +31,5 @@ bash create_assignment4_venv.sh
 bash run_lr_nn_scripts.sh
 ```  
 **step 4: Output:**
-- The two classifiers is printet on the screen
+- The two classifiers are printet on the screen
 
