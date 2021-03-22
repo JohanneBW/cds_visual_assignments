@@ -12,7 +12,7 @@ These scripts can then be used to provide easy-to-understand benchmark scores fo
 - Navigate to destination you want the repo
 - type the following command
  ```console
- git clone 
+ git clone https://github.com/JohanneBW/cds_visual_assignments.git
  ```
 **step 2: Set up enviroment:**
 - Navigate to the folder "Assignment_4".
@@ -26,10 +26,15 @@ bash create_assignment4_venv.sh
 ```  
 **step 3: Run the program:**
 - Navigate to the folder "Assignment_4" if you are not already there
-- Run the programs by running the run_lr_nn_scripts.sh where the enviroment activates and the two scripts in the src folder run
+- As a shortcut you can run the programs by running the run_lr_nn_scripts.sh where the enviroment activates and the two scripts in the src folder run. 
 ```console
 bash run_lr_nn_scripts.sh
-```  
+``` 
+- Else: navigate to the src folder and run the scripts individually
+```console
+python3 lr-mnist.py
+python3 nn-mnist.py
+```
 **step 4: Output:**
 - The two classifiers are printet on the screen
 - NB: This might take some time
