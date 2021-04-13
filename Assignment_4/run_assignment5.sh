@@ -8,5 +8,9 @@ pip install --upgrade pip
 
 test -f requirements.txt && pip install requirements.txt
 
-deactivate
 echo "build $VENVNAME"
+
+#run the program
+python3 cnn-artists.py $@
+
+deactivate
