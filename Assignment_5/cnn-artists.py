@@ -49,7 +49,7 @@ def main():
     # add argument about the number of epochs when training the model. The default value is 20 epochs.
     ap.add_argument("-epo", "--epochs_number", 
                     required=False, 
-                    default = 100, 
+                    default = 20, 
                     type = int, 
                     help="The number of epochs, the default is 20")
     
