@@ -19,6 +19,8 @@ import shutil
 from shutil import copyfile
 import random
 
+import argparse
+
 # sklearn tools
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import classification_report
