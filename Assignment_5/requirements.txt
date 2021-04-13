@@ -3,3 +3,5 @@ tensorflow
 pandas
 matplotlib
 numpy
+pydot
+google
