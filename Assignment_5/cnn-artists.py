@@ -46,39 +46,39 @@ def main():
     """
     ---------- Sample data ----------
     """
-    # Create a smaller sample data for the training data 
+    # This section creates a smaller sample data for the training data. I have uploaded the samples so the code for this will not be needed. 
     # The folder which contains the sub directories 
-    source_dir = 'data/archive/training/training/'
+    #source_dir = 'data/archive/training/training/'
 
     # List sub directories 
-    for root, dirs, files in os.walk(source_dir):
+    #for root, dirs, files in os.walk(source_dir):
         # Iterate through them
-        for i in dirs: 
+        #for i in dirs: 
             # Create a new folder with the name of the iterated sub dir
-            path = 'data/small_training/' + "%s/" % i
-            os.makedirs(path)
+            #path = 'data/small_training/' + "%s/" % i
+            #os.makedirs(path)
             # Take random sample, here 3 files per sub dir
-            filenames = random.sample(os.listdir('data/archive/training/training/' + "%s/" % i ), 40)
+            #filenames = random.sample(os.listdir('data/archive/training/training/' + "%s/" % i ), 40)
             #Copy the files to the new destination
-            for j in filenames:
-                shutil.copy2('data/archive/training/training/' + "%s/" % i  + j, path)
+            #for j in filenames:
+                #shutil.copy2('data/archive/training/training/' + "%s/" % i  + j, path)
     
     # Create a smaller sample data for the test/validation data 
     # Folder which contains the sub directories we want to copy
-    val_source_dir = 'data/archive/validation/validation/'
+    #val_source_dir = 'data/archive/validation/validation/'
     
     # List sub directories 
-    for root, dirs, files in os.walk(val_source_dir):
+    #for root, dirs, files in os.walk(val_source_dir):
     # Iterate through them
-        for i in dirs: 
+        #for i in dirs: 
             # Create a new folder with the name of the iterated sub dir (small_training)
-            path = 'data/small_validation/' + "%s/" % i
-            os.makedirs(path)
+            #path = 'data/small_validation/' + "%s/" % i
+            #os.makedirs(path)
             # Take random sample, here 10 files per sub dir
-            filenames = random.sample(os.listdir('data/archive/validation/validation/' + "%s/" % i ), 10)
+            #filenames = random.sample(os.listdir('data/archive/validation/validation/' + "%s/" % i ), 10)
             # Copy the files to the new destination
-            for j in filenames:
-                shutil.copy2('data/archive/validation/validation/' + "%s/" % i  + j, path)
+            #for j in filenames:
+                #shutil.copy2('data/archive/validation/validation/' + "%s/" % i  + j, path)
     
     """
     ---------- Find and create labels ----------
