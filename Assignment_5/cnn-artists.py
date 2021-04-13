@@ -24,7 +24,6 @@ from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import classification_report
 
 # tf tools
-from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import (Conv2D, 
                                      MaxPooling2D, 
@@ -41,7 +40,22 @@ from tensorflow.keras import backend as K
 """
 
 def main():
- 
+
+    """
+    ---------- Parameters ----------
+    """
+    # Create an argument parser from argparse
+    ap = argparse.ArgumentParser()       
+    # add argument about the number of epochs when training the model. The default value is 20 epochs.
+    ap.add_argument("-epo", "--epochs_number", 
+                    required=False, 
+                    default = 100, 
+                    type = int, 
+                    help="The number of epochs, the default is 20")
+    
+    args = vars(ap.parse_args())
+    
+    epochs_number = args["epochs_number"]
     
     """
     ---------- Sample data ----------
@@ -223,11 +237,11 @@ def main():
     H = model.fit(X_train, y_train, 
                   validation_data=(X_test, y_test), 
                   batch_size=32,
-                  epochs=20,
+                  epochs=epochs_number,
                   verbose=1)
     
     # Plot history
-    plot_history(H,20)
+    plot_history(H, epochs_number)
     
     # Print the classification report
     predictions = model.predict(X_test, batch_size=32)
