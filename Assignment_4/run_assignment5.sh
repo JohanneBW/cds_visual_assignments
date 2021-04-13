@@ -1,16 +1,25 @@
 #!/usr/bin/env bash
 
-VENVNAME=VA_Assignment5_venv
+#Enviroment name
+VENVNAME=Assignment4_venv
 
-python3 -m venv $VENVNAME
+#Activate enviroment
 source $VENVNAME/bin/activate
+
+#Upgrade pip
 pip install --upgrade pip
 
-test -f requirements.txt && pip install requirements.txt
+#Problems when installing from requirements.txt
+test -f requirements.txt && pip install -r requirements.txt
 
-echo "build $VENVNAME"
 
-#run the program
-python3 cnn-artists.py $@
+#Navigate to src folder
+cd src
 
+#Run scripts
+python3 lr-mnist.py $@
+
+python3 nn-mnist.py $@
+
+#deactivate environment
 deactivate
