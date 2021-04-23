@@ -1,5 +1,6 @@
 ## Assignment 3 - Edge detection
 **Johanne BW**
+
 __Finding text using edge detection__
 
 DESCRIPTION
