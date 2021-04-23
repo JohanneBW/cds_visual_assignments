@@ -201,7 +201,7 @@ def main():
         plt.legend()
         plt.tight_layout()
         plt.show()
-        fig.savefig("model_performance.png")
+        fig.savefig("output/model_performance.png")
      
     # Define model
     model = Sequential()
@@ -233,7 +233,7 @@ def main():
                   metrics=["accuracy"])
     
     # Model summary
-    plot_model(model, to_file = "model_architecture.png", show_shapes=True, show_layer_names=True)
+    plot_model(model, to_file = "output/model_architecture.png", show_shapes=True, show_layer_names=True)
     
     # Train model
     H = model.fit(X_train, y_train, 
