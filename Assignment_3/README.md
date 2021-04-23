@@ -31,7 +31,7 @@ Draw a green contour around each letter in the cropped image. Save this as image
 cd cds_visual_assignments
 cd Assignment_3
 ```  
-- Use the bash script _run_assignment5.sh_ to run the program and set up environment:  
+- Use the bash script _run_assignment3.sh_ to run the program and set up environment:  
 ```console
 bash run_assignment3.sh
 ```  
