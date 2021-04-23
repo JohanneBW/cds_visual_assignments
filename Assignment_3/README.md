@@ -1,7 +1,8 @@
 ## Assignment 3 - Edge detection
-
+**Johanne BW**
 __Finding text using edge detection__
 
+DESCRIPTION
 The purpose of this assignment is to use computer vision to extract specific features from images. In particular, we're going to see if we can find text. We are not interested in finding whole words right now; we'll look at how to find whole words in a coming class. For now, we only want to find language-like objects, such as letters and punctuation.
 
 __Data__
@@ -14,3 +15,27 @@ Draw a green rectangular box to show a region of interest (ROI) around the main 
 Crop the original image to create a new image containing only the ROI in the rectangle. Save this as image_cropped.jpg.
 Using this cropped image, use Canny edge detection to 'find' every letter in the image
 Draw a green contour around each letter in the cropped image. Save this as image_letters.jpg
+
+
+## How to run
+**Step 1: Clone repo**
+- open terminal
+- Navigate to destination you want the repo
+- type the following command
+ ```console
+ git clone https://github.com/JohanneBW/cds_visual_assignments.git
+ ```
+**step 2: Set up enviroment and run program:**
+- Navigate to the folder "Assignment_3".
+```console
+cd cds_visual_assignments
+cd Assignment_3
+```  
+- Use the bash script _run_assignment5.sh_ to run the program and set up environment:  
+```console
+bash run_assignment3.sh
+```  
+- Else: Run the script directly from the terminal
+```console
+python3 edge_detection.py 
+```
