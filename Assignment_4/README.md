@@ -6,7 +6,27 @@
 __Description__ 
 
 Create two command-line tools which can be used to perform a simple classification task on the MNIST data and print the output to the terminal. 
-These scripts can then be used to provide easy-to-understand benchmark scores for evaluating these models.
+These scripts can then be used to provide easy-to-understand benchmark scores for evaluating these models. 
+
+__data__
+
+For this assignment we use the MNIST data which can be found by the following link: http://yann.lecun.com/exdb/mnist/. The data is importet in the scripts. 
+
+__output__
+
+The output for this assignment is printed to the terminal after running the scripts.
+
+__src__
+
+This folder contains the source code for the assignment. In this assignment I have used two script (lr-mnist.py and nn-mnist.py) to solve the tasks. The lr-mnist.py script uses a logistic regression model and the nn-mnist.py script uses a neural network model. 
+
+__utils__
+
+This folder contains Utility functions we have used in the lessons for our CDS/Visual Analytics class. 
+
+__Parameters__
+
+It is possible to change the size of the training and test data in the two scripts from the command-line. Both scripts have 80 percent as the size of their training data and 20 percent as the size of their test data as their default values. In addition, for the nn-mnist.py script it is possible to change the number of epocs where 100 is the default value. 
 
 ## How to run
 **Step 1: Clone repo**
@@ -32,7 +52,4 @@ bash create_assignment4_venv.sh
 ```console
 bash run_lr_nn_scripts.sh
 ``` 
-**step 4: Output:**
-- The two classifiers are printet on the screen
-- NB: This might take some time
 
