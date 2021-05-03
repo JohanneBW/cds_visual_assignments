@@ -1,7 +1,9 @@
 ## Assignment 4 - Classification benchmarks
 **Johanne BW**
 
-DESCRIPTION Classifier benchmarks using Logistic Regression and a Neural Network
+## Classifier benchmarks using Logistic Regression and a Neural Network
+
+__Description__ 
 
 Create two command-line tools which can be used to perform a simple classification task on the MNIST data and print the output to the terminal. 
 These scripts can then be used to provide easy-to-understand benchmark scores for evaluating these models.
@@ -30,11 +32,6 @@ bash create_assignment4_venv.sh
 ```console
 bash run_lr_nn_scripts.sh
 ``` 
-- Else: navigate to the src folder and run the scripts individually
-```console
-python3 lr-mnist.py
-python3 nn-mnist.py
-```
 **step 4: Output:**
 - The two classifiers are printet on the screen
 - NB: This might take some time
