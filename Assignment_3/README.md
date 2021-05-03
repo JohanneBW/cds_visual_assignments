@@ -7,7 +7,7 @@ __Description__
 
 The purpose of this assignment is to use computer vision to extract specific features from images. For now, we want to find language-like objects, such as letters and punctuation.
 
-__Data__
+__data__
 
 This folder contains the data for the script. The image for this assignment is already located in the data folder. 
 The data used for this asignment can be found by the following link:
