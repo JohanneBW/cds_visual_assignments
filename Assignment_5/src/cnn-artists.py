@@ -64,43 +64,43 @@ def main():
     """
     # This section creates a smaller sample data for the training data. I have uploaded the samples so the code for this will not be needed. 
     # The folder which contains the sub directories 
-    #source_dir = 'data/archive/training/training/'
+    #source_dir = '../data/archive/training/training/'
 
     # List sub directories 
     #for root, dirs, files in os.walk(source_dir):
         # Iterate through them
         #for i in dirs: 
             # Create a new folder with the name of the iterated sub dir
-            #path = 'data/small_training/' + "%s/" % i
+            #path = '../data/small_training/' + "%s/" % i
             #os.makedirs(path)
             # Take random sample, here 3 files per sub dir
-            #filenames = random.sample(os.listdir('data/archive/training/training/' + "%s/" % i ), 40)
+            #filenames = random.sample(os.listdir('../data/archive/training/training/' + "%s/" % i ), 40)
             #Copy the files to the new destination
             #for j in filenames:
-                #shutil.copy2('data/archive/training/training/' + "%s/" % i  + j, path)
+                #shutil.copy2('../data/archive/training/training/' + "%s/" % i  + j, path)
     
     # Create a smaller sample data for the test/validation data 
     # Folder which contains the sub directories we want to copy
-    #val_source_dir = 'data/archive/validation/validation/'
+    #val_source_dir = '../data/archive/validation/validation/'
     
     # List sub directories 
     #for root, dirs, files in os.walk(val_source_dir):
     # Iterate through them
         #for i in dirs: 
             # Create a new folder with the name of the iterated sub dir (small_training)
-            #path = 'data/small_validation/' + "%s/" % i
+            #path = '../data/small_validation/' + "%s/" % i
             #os.makedirs(path)
             # Take random sample, here 10 files per sub dir
-            #filenames = random.sample(os.listdir('data/archive/validation/validation/' + "%s/" % i ), 10)
+            #filenames = random.sample(os.listdir('../data/archive/validation/validation/' + "%s/" % i ), 10)
             # Copy the files to the new destination
             #for j in filenames:
-                #shutil.copy2('data/archive/validation/validation/' + "%s/" % i  + j, path)
+                #shutil.copy2('../data/archive/validation/validation/' + "%s/" % i  + j, path)
     
     """
     ---------- Find and create labels ----------
     """
     # Path to training folder with painters
-    training_dir = os.path.join("data", "small_training")
+    training_dir = os.path.join("..", "data", "small_training")
 
     # Names as a string
     label_names = []
@@ -123,7 +123,7 @@ def main():
     
     # Labels for validation
     # Path to training folder with painters
-    validation_dir = os.path.join("data", "small_validation")
+    validation_dir = os.path.join("..", "data", "small_validation")
 
     # Test labels
     y_test = []
@@ -147,12 +147,12 @@ def main():
     """
     # Resize the training data
     # The path were the images are located
-    filepath = os.path.join("data", "small_training")
+    train_filepath = os.path.join("..", "data", "small_training")
 
     X_train=[]
 
     # for each image in the folders, resize it
-    for folder in Path(filepath).glob("*"):
+    for folder in Path(train_filepath).glob("*"):
         for file in Path(folder).glob("*"):
             image_open = cv2.imread(str(file))
             # The new dimensions 
@@ -164,12 +164,12 @@ def main():
     
     # Resize the test data
     # The path were the images are located
-    filepath = os.path.join("data", "small_validation")
+    test_filepath = os.path.join("..", "data", "small_validation")
 
     X_test=[]
 
     # For each image in the folders, resize it
-    for folder in Path(filepath).glob("*"):
+    for folder in Path(test_filepath).glob("*"):
         for file in Path(folder).glob("*"):
             image_open = cv2.imread(str(file))
             # The new dimensions 
@@ -201,7 +201,7 @@ def main():
         plt.legend()
         plt.tight_layout()
         plt.show()
-        fig.savefig("output/model_performance.png")
+        fig.savefig("../output/model_performance.png")
      
     # Define model
     model = Sequential()
@@ -233,7 +233,7 @@ def main():
                   metrics=["accuracy"])
     
     # Model summary
-    plot_model(model, to_file = "output/model_architecture.png", show_shapes=True, show_layer_names=True)
+    plot_model(model, to_file = "../output/model_architecture.png", show_shapes=True, show_layer_names=True)
     
     # Train model
     H = model.fit(X_train, y_train, 
