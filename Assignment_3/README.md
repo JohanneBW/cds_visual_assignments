@@ -19,8 +19,7 @@ __src__
 
 This folder contains the source code for the assignment. In this assignment I have used one script (edge_detection.py) to solve the tasks. 
 
-__The tasks for the assignment__
-
+## The tasks for the assignment
 - Draw a green rectangular box to show a region of interest (ROI) around the main body of text in the middle of the image. 
 - Save this as image_with_ROI.jpg.
 - Crop the original image to create a new image containing only the ROI in the rectangle. 
