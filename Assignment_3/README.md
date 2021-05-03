@@ -12,14 +12,14 @@ https://upload.wikimedia.org/wikipedia/commons/f/f4/%22We_Hold_These_Truths%22_a
 
 The image for this assignment is already located in the data folder.
 
-The following tasks for the assignment:
+The tasks for the assignment:
 - Draw a green rectangular box to show a region of interest (ROI) around the main body of text in the middle of the image. 
- -Save this as image_with_ROI.jpg.
+- Save this as image_with_ROI.jpg.
 - Crop the original image to create a new image containing only the ROI in the rectangle. 
--- Save this as image_cropped.jpg.
+- Save this as image_cropped.jpg.
 - Using this cropped image, use Canny edge detection to 'find' every letter in the image
 - Draw a green contour around each letter in the cropped image. 
--- Save this as image_letters.jpg
+- Save this as image_letters.jpg
 
 
 ## How to run
@@ -36,7 +36,7 @@ The following tasks for the assignment:
 cd cds_visual_assignments
 cd Assignment_3
 ```  
-- Use the bash script _run_assignment3.sh_ to run the program and set up environment:  
+- Use the bash script _run_assignment3.sh_ to set up environment and run the program:  
 ```console
 bash run_assignment3.sh
 ```  
