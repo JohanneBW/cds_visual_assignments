@@ -1,7 +1,9 @@
 ## Assignment 3 - Edge detection
 **Johanne BW**
 
-__Finding text using edge detection__
+## Finding text using edge detection
+
+__Description__
 
 The purpose of this assignment is to use computer vision to extract specific features from images. For now, we want to find language-like objects, such as letters and punctuation.
 
