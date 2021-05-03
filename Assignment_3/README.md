@@ -22,6 +22,8 @@ The tasks for the assignment:
 - Save this as image_letters.jpg
 
 
+
+
 ## How to run
 **Step 1: Clone repo**
 - open terminal
