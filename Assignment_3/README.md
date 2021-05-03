@@ -14,7 +14,7 @@ The image for this assignment is already located in the data folder.
 
 The following tasks for the assignment:
 - Draw a green rectangular box to show a region of interest (ROI) around the main body of text in the middle of the image. 
---Save this as image_with_ROI.jpg.
+ -Save this as image_with_ROI.jpg.
 - Crop the original image to create a new image containing only the ROI in the rectangle. 
 -- Save this as image_cropped.jpg.
 - Using this cropped image, use Canny edge detection to 'find' every letter in the image
