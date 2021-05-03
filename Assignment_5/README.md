@@ -10,6 +10,9 @@ You can find the original data for the assignment here: https://www.kaggle.com/d
 If you run the script from the terminal it is possible to choose the number of epochs yourself. A default value of 20 epocs has been inserted, so it is easier to test.
 
 
+model = LeNet
+
+
 ## How to run
 **Step 1: Clone repo**
 - open terminal
