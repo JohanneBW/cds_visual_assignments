@@ -22,7 +22,7 @@ def main():
     ---------- Path ----------
     """
     # Define the path were the image is located
-    image_path = os.path.join("data", "We_Hold_These_Truths_at_Jefferson_Memorial.JPG")
+    image_path = os.path.join("..", data", "We_Hold_These_Truths_at_Jefferson_Memorial.JPG")
     
     # image is now defined by reading the path
     image = cv2.imread(image_path)
@@ -46,7 +46,7 @@ def main():
     ---------- Save ROI  ----------
     """    
     # I define the path were the image is going to be stored. 
-    outfile_ROI = os.path.join("output", "image_with_ROI.jpg")
+    outfile_ROI = os.path.join("..", "output", "image_with_ROI.jpg")
     # Save the image 
     cv2.imwrite(outfile_ROI, ROI)
     
@@ -65,7 +65,7 @@ def main():
     ---------- Save cropped  ----------
     """     
     # Define the path were the cropped image will be saved
-    outfile_cropped = os.path.join("output", "image_cropped.jpg")
+    outfile_cropped = os.path.join("..", "output", "image_cropped.jpg")
     # Save the cropped image
     cv2.imwrite(outfile_cropped, cropped)
     
@@ -102,7 +102,7 @@ def main():
     ---------- Save contoured image  ----------
     """  
     # Define the path were the contoured image will be saved
-    outfile_contoured = os.path.join("output", "image_letters.jpg")
+    outfile_contoured = os.path.join("..", "output", "image_letters.jpg")
     # Save the contoured image
     cv2.imwrite(outfile_contoured, cropped_contour)
     
