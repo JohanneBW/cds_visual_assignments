@@ -2,17 +2,20 @@
 **Johanne BW**
 
 __Finding text using edge detection__
-
-DESCRIPTION
 The purpose of this assignment is to use computer vision to extract specific features from images. For now, we want to find language-like objects, such as letters and punctuation.
 
 __Data__
+This folder contains the data for the script. The image for this assignment is already located in the data folder. 
 The data used for this asignment can be found by the following link:
 https://upload.wikimedia.org/wikipedia/commons/f/f4/%22We_Hold_These_Truths%22_at_Jefferson_Memorial_IMG_4729.JPG
 
-The image for this assignment is already located in the data folder.
+__output__
+The folder contains the outputs from the script. In this assignment the output is four images.
 
-The tasks for the assignment:
+__src__
+This folder contains the source code for the assignment. In this assignment I have used one script to solve the tasks. 
+
+__The tasks for the assignment__
 - Draw a green rectangular box to show a region of interest (ROI) around the main body of text in the middle of the image. 
 - Save this as image_with_ROI.jpg.
 - Crop the original image to create a new image containing only the ROI in the rectangle. 
@@ -20,8 +23,6 @@ The tasks for the assignment:
 - Using this cropped image, use Canny edge detection to 'find' every letter in the image
 - Draw a green contour around each letter in the cropped image. 
 - Save this as image_letters.jpg
-
-
 
 
 ## How to run
