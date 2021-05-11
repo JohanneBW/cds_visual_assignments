@@ -36,20 +36,14 @@ It is possible to change the size of the training and test data in the two scrip
  ```console
  git clone https://github.com/JohanneBW/cds_visual_assignments.git
  ```
-**step 2: Set up enviroment:**
+**step 2: Set up enviroment and run the programs:**
 - Navigate to the folder "Assignment_4".
 ```console
 cd cds_visual_assignments
 cd Assignment_4
 ```  
-- Use the bash script _create_assignment4_venv.sh_ to set up environment:  
-```console
-bash create_assignment4_venv.sh
-```  
-**step 3: Run the program:**
-- Navigate to the folder "Assignment_4" if you are not already there
-- As a shortcut you can run the programs by running the run_lr_nn_scripts.sh where the enviroment activates and the two scripts in the src folder run. 
+- Use the bash script _run_lr_nn_scripts.sh_ to set up environment and run the two scripts in the src folder:  
 ```console
 bash run_lr_nn_scripts.sh
-``` 
+```  
 
