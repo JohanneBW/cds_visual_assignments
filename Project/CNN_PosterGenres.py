@@ -142,9 +142,9 @@ def main():
             errors.append(int(index))
             pass
 
-   '''
-   -------------- Save data frame and remove errors:---------------
-   '''
+    '''
+    -------------- Save data frame and remove errors:---------------
+    '''
     #Save the data frame as a csv
     final_df.to_csv("genre_df.csv") 
 
@@ -152,20 +152,20 @@ def main():
     final_df = final_df.drop(labels=errors, axis=0).reset_index()
 
 
-     #We now want to create a new dataset where the errors are removed
-     '''
-     ----------------------Create data folder for the data without the errors:------------------- 
-     '''
-     #Error handling: create folder if it does not allready exist
+    #We now want to create a new dataset where the errors are removed
+    '''
+    ----------------------Create data folder for the data without the errors:------------------- 
+    '''
+    #Error handling: create folder if it does not allready exist
       
      try:
          os.mkdir("Sorted_Posters")
      except FileExistsError:
          print(f"Sorted_Posters already exists.")
 
-     '''
-     -------------- Download the images to the new folder:---------------
-     '''
+    '''
+    -------------- Download the images to the new folder:---------------
+    '''
      #For the length of the data set
      for i in range(len(final_df)):
          #Define the index to be the index of the data frame
