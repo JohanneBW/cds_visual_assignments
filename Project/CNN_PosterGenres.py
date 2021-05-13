@@ -306,3 +306,7 @@ def main():
      print(classification_report(y_test.argmax(axis=1),
                                  predictions.argmax(axis=1),
                                  target_names=label_names))
+
+#Define behaviour when called from command line
+if __name__ == "__main__":
+    main()
