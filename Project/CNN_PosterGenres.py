@@ -184,15 +184,15 @@ def main():
              image_filename = wget.download(image_url, filename)          
              except: 
                  pass
-     '''
-     -------------- Save data frame:---------------
-     '''     
+    '''
+    -------------- Save data frame:---------------
+    '''     
      #Save the data frame without the errors as a csv
      final_df.to_csv("sorted_genre_df.csv")  
       
-     '''
-     ---------------------- Convert the images into arrays and append to list:------------------- 
-     '''
+    '''
+    ---------------------- Convert the images into arrays and append to list:------------------- 
+    '''
      #Define the image path
      image_path = os.path.join("Sorted_Posters")
       
@@ -210,9 +210,9 @@ def main():
          #np_images.append(resize_image.astype("float")/255.)
          np_images.append(image_open)
 
-     '''
-     ---------------------- Define traning and test data and labels:------------------- 
-     '''
+    '''
+    ---------------------- Define traning and test data and labels:------------------- 
+    '''
      # X represent the data and y the labels. The posters will be the data and the genres will be the labels   
      #Define the test and traing data and size
      X_train, X_test, y_train, y_test = train_test_split(np_images, 
@@ -233,9 +233,9 @@ def main():
      y_train = lb.fit_transform(y_train)
      y_test = lb.fit_transform(y_test)
       
-     '''
-     ---------------------- Function for plotting and save history:------------------- 
-     ''' 
+    '''
+    ---------------------- Function for plotting and save history:------------------- 
+    ''' 
      #Define function for plotting and save history 
      def plot_history(H, epochs):
         # Visualize performance
@@ -254,9 +254,9 @@ def main():
         #Save the history as model_performance.png
         fig.savefig("model_performance.png")
       
-     '''
-     ---------------------- Define and train LeNet CNN model:------------------- 
-     '''   
+    '''
+    ---------------------- Define and train LeNet CNN model:------------------- 
+    '''   
      #Define model as being Sequential and add layers
      model = Sequential()
      # First set of CONV => RELU => POOL
