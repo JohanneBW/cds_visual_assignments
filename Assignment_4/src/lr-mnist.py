@@ -54,13 +54,13 @@ def main():
     """
     ---------- Logistic Regression model ----------
     """
-    # Fetch data
+    # Fetch data. When fetching the data like this, the X and y is already defined as the data and the labels. 
     X, y = fetch_openml('mnist_784', version=1, return_X_y=True)
     # Convert to numpy arrays
     X = np.array(X)
     y = np.array(y)
     
-    # Create training and test dataset
+    # Create training and test dataset. X contains the data and will be split into training and test data. y contains the labels and will split into train and test as well.
     X_train, X_test, y_train, y_test = train_test_split(X, 
                                                     y, 
                                                     train_size=trs_size, 
@@ -68,12 +68,12 @@ def main():
     # Scaling the features to a value between 0 and 1
     X_train_scaled = X_train/255.0
     X_test_scaled = X_test/255.0
-    # Train a logistic regression model
+    # Train a logistic regression model.
     clf = LogisticRegression(penalty='none', 
                          tol=0.1, 
                          solver='saga',
                          multi_class='multinomial').fit(X_train_scaled, y_train)
-    # Check accurcy
+    # Check the accurcy
     y_pred = clf.predict(X_test_scaled)
     cm = metrics.classification_report(y_test, y_pred)
     print(cm)
