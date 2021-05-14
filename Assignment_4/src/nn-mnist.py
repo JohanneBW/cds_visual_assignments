@@ -46,7 +46,7 @@ def main():
                     default = 0.2, 
                     type = float, 
                     help="The size of the test data as percent, the default is 0.2")
-    # add argument about number of epochs with a 100 epochs as default
+    # add argument about number of epochs with 20 epochs as default
     ap.add_argument("-epo", "--epochs_number", 
                     required=False, 
                     default = 20, 
