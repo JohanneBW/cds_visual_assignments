@@ -3,7 +3,7 @@
 
 __Assignment description__
 
-This is assignment 3. The purpose of this assignment is to use computer vision to extract specific fea-tures from images. In this assignment we want to find language-like objects, such as letters and punc-tuation by using edge detection. 
+This is assignment 3. The purpose of this assignment is to use computer vision to extract specific features from images. In this assignment we want to find language-like objects, such as letters and punc-tuation by using edge detection. 
 The First thing we want to do, is to draw a green rectangular box to show a region of in-terest (ROI) around the main body of text in the middle of the image. The next thing we want to do, is to crop the original image to create a new image containing only the ROI in the rectangle. Then we use Canny edge detection to 'find' every letter in the image and draw a green contour around each letter in the cropped image. 
 
 __Methods__
