@@ -48,5 +48,5 @@ Assignment4_venv/bin/activate
 - Run the script with specified parameters. 
 - Example: The nn-mnist.py with 50 epochs. Type the following:
 ```console
-python3 nn-mnist.py -epo 50
+python3 cnn-artists.py -epo 50
 ``` 
