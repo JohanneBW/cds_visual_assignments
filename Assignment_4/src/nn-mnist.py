@@ -63,16 +63,16 @@ def main():
     """
     ---------- Neural network model ----------
     """
-    # Fetch data
+    # Fetch data. When fetching the data like this, the X and y is already defined as the data and the labels.
     X, y = fetch_openml('mnist_784', version=1, return_X_y=True)
-     # Convert to numpy arrays
+    # Convert to numpy arrays
     X = np.array(X)
     y = np.array(y)
     
     # MinMax regularization
     X = ( X - X.min())/(X.max() - X.min()) 
     
-    # Split data
+    # Split data. X contains the data and will be split into training and test data. y contains the labels and will split into train and test as well.
     X_train, X_test, y_train, y_test = train_test_split(X,
                                                          y, 
                                                         train_size = trs_size,
