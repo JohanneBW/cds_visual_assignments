@@ -18,7 +18,7 @@ The repository contains the folders src and utils. For this assignment we use th
 _Parameters:_
 It is possible to change the size of the training and test data in the two scripts from the command-line. Both scripts have 80 percent as the size of their training data and 20 percent as the size of their test data as their default values. In addition, for the nn-mnist.py script it is possible to change the number of epocs where 100 is the default value. The size of the test data can be specified by "-tes" or "--test_size" followed by the size as a float. The number of epochs can be specified by “-epo” or “--epochs_number” followed by the number as an integer. 
 
-I have created a bash script that creates and activates a virtual environment, retrieves necessary librar-ies from the requirements.txt file and run the scripts for the assignment.
+I have created a bash script that creates and activates a virtual environment, retrieves necessary libraries from the requirements.txt file and run the scripts for the assignment.
 
 
 ## How to run
