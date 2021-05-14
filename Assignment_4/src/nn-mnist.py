@@ -49,7 +49,7 @@ def main():
     # add argument about number of epochs with a 100 epochs as default
     ap.add_argument("-epo", "--epochs_number", 
                     required=False, 
-                    default = 100, 
+                    default = 20, 
                     type = int, 
                     help="The number of epochs, the default is 100")
     
