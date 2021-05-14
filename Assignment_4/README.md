@@ -4,7 +4,8 @@
 __Assignment description__
 
 This is assignment 4. For this assignment we create two command-line tools which can be used to perform a simple classification task on the MNIST data and print the output to the terminal. 
-These scripts can then be used to provide easy-to-understand benchmark scores for evaluating these models. 
+These scripts can then be used to provide easy-to-understand benchmark scores for evaluating these models. The purposes of this assignment are to train classification models using machine learning and neural networks, create simple models that can be used as statistical benchmarks and how to do so using scripts which can be executed from the command line.
+ 
 
 __Methods__
 
