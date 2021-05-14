@@ -1,5 +1,5 @@
 ## Assignment 4 - Classification benchmarks
-**Johanne BW**
+**Johanne Brandhøj Würtz**
 
 __Assignment description__
 
