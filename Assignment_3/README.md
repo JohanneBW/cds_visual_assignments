@@ -38,3 +38,6 @@ cd Assignment_3
 ```console
 bash run_assignment3.sh
 ```  
+__Discussion of results__
+
+I managed to apply Canny edge detection to the image of the Jefferson Memorial. However, I ended up with a script that is difficult to apply to other images for similar tasks. One of the reasons for this is that both the image and the regions of interest can be in vastly different sizes. in addition, the regions of interest are not necessarily in the center of the image, nor can they necessarily be enclosed by a rec-tangle of the same format. Therefore, there are many elements that must be met in order to have a suc-cessful edge detection.
