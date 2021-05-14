@@ -10,7 +10,8 @@ test -f requirements.txt && pip install requirements.txt
 
 echo "build $VENVNAME"
 
-#Run scripts
+#Run script
+cd src
 python3 cnn-artists.py
 
 #deactivate environment
