@@ -18,7 +18,9 @@ The src folder contains the script CNN_Genre.py, which is our primary script whe
 I have created a bash script that creates and activates a virtual environment, retrieves necessary librar-ies from the requirements.txt file and runs the script for the assignment.
 
 **How to run**
+
 The following shows how to set up the virtual environment and run the script step by step.
+
 **Step 1: Clone repo**
 - Open terminal
 - Navigate to destination you want the repo
