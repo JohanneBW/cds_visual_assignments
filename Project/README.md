@@ -24,18 +24,21 @@ The following shows how to set up the virtual environment and run the script ste
 - Navigate to destination you want the repo
 - Type the following command:
 
+```console
 git clone https://github.com/JohanneBW/cds_visual_assignments.git
-
+```  
 **Step 2: Set up environment and run scripts**
 - Type the following command to navigate to the folder "Project":
 
+```console
 cd cds_visual_assignments
 cd Project
-
-- Use the bash script run_project.sh to set up environment and run the script in the src folder
+``` 
+- Use the bash script _run_project.sh_ to set up environment and run the script in the src folder
 - Type the following command:
 
+```console
 bash run_project.sh
-
+```
 
 
