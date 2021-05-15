@@ -1,0 +1,8 @@
+pandas
+os
+wget
+numpy
+cv2
+pathlib.Path
+matplotlib.pyplot
+sklearn
