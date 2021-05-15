@@ -1,4 +1,4 @@
-##Project – Genres by movie posters##
+## Project – Genres by movie posters ##
 **Johanne Brandhøj Würtz**
 
 
