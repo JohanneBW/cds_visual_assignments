@@ -41,6 +41,7 @@ cd Assignment_4
 ```console
 bash run_lr_nn_scripts.sh
 ```  
+
 **Else: Run with other parameters**
 - Activate the virtual environment by typing the following:
 ```console
@@ -51,3 +52,6 @@ Assignment4_venv/bin/activate
 ```console
 python3 nn-mnist.py -epo 50
 ``` 
+__Discussion of results__
+
+When we run the two models with their default values i.e., 20% for test data and 80% for training data as well as 20 epochs for the Neural Network model, the Logistic Regression model has an accuracy of 92% and the Neural Network model has an accuracy of 96%. It is clear to see that the Neural Network model performs better and is able to process the data in an advantageous way. This can be due both to the data itself, but also to the parameters that have been set.
