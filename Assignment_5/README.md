@@ -12,7 +12,7 @@ We have built a deep learning model using a convolutional neural network which c
 __Usage__
 
 _Structure:_
-The repository contains the folders data, src and output. We have made a smaller data set based on the original. The smaller dataset can be found in the data folder. The code for how we did this appears in the script itself but is commented out. We used the full dataset when we run the script. The original data for the assignment can be found and downloaded here: https://www.kaggle.com/delayedkarma/impressionist-classifier-data. The src folder contains the script for the assignment and the output folder contains images of the model’s architecture and performance. 
+The repository contains the folders data, src and output. We have made a smaller data set based on the original. The smaller dataset can be found in the data folder. The code for how we did this appears in the script itself but is commented out. We used the both the full dataset and the sample when we ran the script. The original data for the assignment can be found and downloaded here: https://www.kaggle.com/delayedkarma/impressionist-classifier-data. The src folder contains the script for the assignment and the output folder contains images of the model’s architecture and performance. 
 
 _Parameters:_
 It is possible to change the number of epochs where 20 is the default value. The number of epochs can be specified by “-epo” or “--epochs_number” followed by the number as an integer.
