@@ -3,7 +3,7 @@
 
 __Assignment description__
 
-This is assignment 5. In this assignment we make a multi-class classification of impressionist painters. This is the first time we are working with actual cultural data and for this assignment we will use what we have learned so far to build a classifier which can predict artists from paintings. The purposes of this assignment are to build and train deep convolutional neural networks, preprocess and prepare im-age data for use in these models and how to handle more complex, cultural image data. 
+This is assignment 5. In this assignment we make a multi-class classification of impressionist painters. This is the first time we are working with actual cultural data and for this assignment we will use what we have learned so far to build a classifier which can predict artists from paintings. The purposes of this assignment are to build and train deep convolutional neural networks, preprocess and prepare image data for use in these models and how to handle more complex, cultural image data. 
 
 __Methods__
 
@@ -17,7 +17,7 @@ The repository contains the folders data, src and output. We have made a smaller
 _Parameters:_
 It is possible to change the number of epochs where 20 is the default value. The number of epochs can be specified by “-epo” or “--epochs_number” followed by the number as an integer.
 
-I have created a bash script that creates and activates a virtual environment, retrieves necessary librar-ies from the requirements.txt file and runs the script for the assignment.
+I have created a bash script that creates and activates a virtual environment, retrieves necessary libraries and runs the script for the assignment. There was some version errors when I tried to install the packages from the requirements file, these packages will be installed directly from the bash script.
 
 
 ## How to run
