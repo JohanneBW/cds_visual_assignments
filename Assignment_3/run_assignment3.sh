@@ -9,6 +9,10 @@ pip install --upgrade pip
 
 test -f requirements.txt && pip install requirements.txt
 
+#Install packages
+pip3 install opencv-python
+pip3 install matplotlib
+
 #navigate to src folder
 cd src
 
