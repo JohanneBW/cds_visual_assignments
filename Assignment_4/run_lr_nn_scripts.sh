@@ -19,9 +19,9 @@ test -f requirements.txt && pip install -r requirements.txt
 cd src
 
 #Run scripts
-python3 lr-mnist.py $@
+python3 lr-mnist.py
 
-python3 nn-mnist.py $@
+python3 nn-mnist.py
 
 #deactivate environment
 deactivate
