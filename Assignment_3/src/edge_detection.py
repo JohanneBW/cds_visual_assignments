@@ -22,7 +22,7 @@ def main():
     ---------- Path ----------
     """
     # Define the path were the image is located
-    image_path = os.path.join("..", data", "We_Hold_These_Truths_at_Jefferson_Memorial.JPG")
+    image_path = os.path.join("..", "data", "We_Hold_These_Truths_at_Jefferson_Memorial.JPG")
     
     # image is now defined by reading the path
     image = cv2.imread(image_path)
