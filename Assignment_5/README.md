@@ -17,7 +17,7 @@ The repository contains the folders data, src and output. We have made a smaller
 _Parameters:_
 It is possible to change the number of epochs where 20 is the default value. The number of epochs can be specified by “-epo” or “--epochs_number” followed by the number as an integer.
 
-I have created a bash script that creates and activates a virtual environment, retrieves necessary libraries and runs the script for the assignment. There was some version errors when I tried to install the packages from the requirements file, these packages will be installed directly from the bash script.
+I have created a bash script that creates and activates a virtual environment, retrieves necessary libraries and runs the script for the assignment. There were some version errors when I tried to install the packages from the requirements file, these packages will be installed directly from the bash script.
 
 
 ## How to run
