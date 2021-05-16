@@ -15,7 +15,7 @@ __Usage__
 Structure:
 The repository contains the folders data, src and output. The data folder contains the data for the script. The image for this assignment is already located in the data folder but can also be found by the following link:https://upload.wikimedia.org/wikipedia/commons/f/f4/%22We_Hold_These_Truths%22_at_Jefferson_Memorial_IMG_4729.JPG. The src folder contains the source code for the assignment. In this assignment I have used one script (edge_detection.py) to solve the tasks. The output folder contains the outputs from the script. In this assignment the output is four images.
 
-I have created a bash script that creates and activates a virtual environment, retrieves necessary librar-ies from the requirements.txt file and runs the script for the assignment
+I have created a bash script that creates and activates a virtual environment, retrieves necessary libraries from the requirements.txt file (two of the packages are installed directly in the bash script) and runs the script for the assignment. 
 
 
 ## How to run
