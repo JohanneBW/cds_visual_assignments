@@ -3,6 +3,8 @@
 #Enviroment name
 VENVNAME=Assignment4_venv
 
+python3 -m venv $VENVNAME
+
 #Activate enviroment
 source $VENVNAME/bin/activate
 
