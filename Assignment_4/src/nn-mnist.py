@@ -51,7 +51,7 @@ def main():
                     required=False, 
                     default = 20, 
                     type = int, 
-                    help="The number of epochs, the default is 100")
+                    help="The number of epochs, the default is 20")
     
     
     args = vars(ap.parse_args())
