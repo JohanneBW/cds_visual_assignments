@@ -106,6 +106,8 @@ def main():
     # Save the contoured image
     cv2.imwrite(outfile_contoured, cropped_contour)
     
+    print("The images are now in the output folder")
+    
 #Define behaviour when called from command line
 if __name__ == "__main__":
     main()   
