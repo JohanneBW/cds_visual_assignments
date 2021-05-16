@@ -11,7 +11,7 @@ source $VENVNAME/bin/activate
 #Upgrade pip
 pip install --upgrade pip
 
-#Problems when installing from requirements.txt
+#Install from requirements.txt
 test -f requirements.txt && pip install -r requirements.txt
 
 
