@@ -251,7 +251,7 @@ def main():
         
     
     '''
-    ---------------------- Define and train LeNet CNN model:------------------- 
+    ---------------------- Define and train CNN model:------------------- 
     '''   
     '''We used the GridSearchCV.py script which is a script we made to estimate the best parameters for our model.
     We found out that the optimizer SGD, a batch size of 10 and 10 epochs would give the best results.'''
