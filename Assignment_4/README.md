@@ -1,6 +1,11 @@
 ## Assignment 4 - Classification benchmarks
 **Johanne Brandhøj Würtz**
 
+__Contribution__
+
+I work with Emil Buus Thomsen, Christoffer Mondrup Kramer and Rasmus Vesti Hansen in this assignment. All contributed equally to every stage of this project. Subsequently, I have modified and corrected the code myself in relation to in-depth comments and further corrections in the code. In the coding process itself, everyone has contributed equally (25%/25%/25%/25%).
+
+
 __Assignment description__
 
 This is assignment 4. For this assignment we create two command-line tools which can be used to perform a simple classification task on the MNIST data and print the output to the terminal. 
@@ -54,4 +59,4 @@ python3 nn-mnist.py -epo 50
 ``` 
 __Discussion of results__
 
-When we run the two models with their default values i.e., 20% for test data and 80% for training data as well as 20 epochs for the Neural Network model, the Logistic Regression model has an accuracy of 92% and the Neural Network model has an accuracy of 96%. It is clear to see that the Neural Network model performs better and is able to process the data in an advantageous way. This can be due both to the data itself, but also to the parameters that have been set.
+When we run the two models with their default values i.e., 20% for test data and 80% for training data as well as 20 epochs for the Neural Network model, the Logistic Regression model has an accuracy of 92% and the Neural Network model has an accuracy of 96%. It is clear to see that the Neural Network model performs better and is able to process the data in an advantageous way.
