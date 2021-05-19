@@ -1,6 +1,11 @@
 ## Assignment 5 - CNNs on cultural image data
 **Johanne Brandhøj Würtz**
 
+__Contribution__
+
+I work with Emil Buus Thomsen, Christoffer Mondrup Kramer and Rasmus Vesti Hansen in this assignment. All contributed equally to every stage of this project. Subsequently, I have modified and corrected the code myself in relation to in-depth comments and further corrections in the code. In the coding process itself, everyone has contributed equally (25%/25%/25%/25%).
+
+
 __Assignment description__
 
 This is assignment 5. In this assignment we make a multi-class classification of impressionist painters. This is the first time we are working with actual cultural data and for this assignment we will use what we have learned so far to build a classifier which can predict artists from paintings. The purposes of this assignment are to build and train deep convolutional neural networks, preprocess and prepare image data for use in these models and how to handle more complex, cultural image data. 
@@ -49,3 +54,7 @@ Assignment5_venv/bin/activate
 ```console
 python3 cnn-artists.py -epo 50
 ```
+
+__Discussion of results__
+
+If we run the script with the full dataset and the default number of epochs, which is 20 we get an accu-racy of 33%. If we run the script with the same number of epochs, we get an accuracy of 22%. As a starting point, I thought that the model did not perform well, but if the performance is put in relation to what you actually ask the model to do, I would argue that it actually performs quite well. To elaborate, we wanted the model to categorize a series of paintings based on the painter. Here it is worth bearing in mind that there are a limited number of paintings. First of all, these are paintings in the form of cul-tural data, of which there are simply only a certain number. If we try to manipulate the data so that we can create 'new' false data based on the original paintings, we risk undermining the very basis of the study. It is therefore not possible to continue training the model with new data, as there is simply no more. This assignment is a good example of how you often work with data, as it is a balancing act between what you want to examine, what you have available and how you want to examine it.
