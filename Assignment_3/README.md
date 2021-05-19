@@ -1,6 +1,11 @@
 ## Assignment 3 - Edge detection
 **Johanne Brandhøj Würtz**
 
+__Contribution__
+
+I did not work with others on this assignment.
+
+
 __Assignment description__
 
 This is assignment 3. The purpose of this assignment is to use computer vision to extract specific features from images. In this assignment we want to find language-like objects, such as letters and punc-tuation by using edge detection. 
