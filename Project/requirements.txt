@@ -1,8 +1,9 @@
 pandas
-os
 wget
 numpy
-cv2
-pathlib.Path
-matplotlib.pyplot
+opencv-python
+Path
+matplotlib
 sklearn
+tensorflow
+pydot
